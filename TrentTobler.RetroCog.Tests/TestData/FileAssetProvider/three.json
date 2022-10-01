@@ -1,0 +1,10 @@
+{
+  "test": [
+    "file",
+    3,
+    { "with": "json" }
+  ],
+  "content": null,
+  "for": true,
+  "unit": "testing"
+}
