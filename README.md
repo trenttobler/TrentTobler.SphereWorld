@@ -5,7 +5,7 @@ from a cubical model where every vertex would have 3, 4, or 5 faces adjoining.
 
 The rendering and modeling, done in OpenGL, was also a project for me to learn a bit more about how this might perform using C#.net.
 
-The current state of this is sort of a "maze game", where the goal is to get from the dirt tile, to the strawberry tile.  It is a pretty boring game, but I'm quite happy with the visual effects and the interactive motion (careful that you don't get too seasick, on this matter... at higher movement speeds (adjust the MainWindow.MovementSpeed variable), it can get a little rollercoastery) due to there being no true "up", and the rotational aspect of always sticking to the surface as you race around.
+The current state of this is sort of a "maze game", where the goal is to get from the dirt tile, to the strawberry tile.  It is a pretty boring game, but I'm quite happy with the visual effects and the interactive motion.  Careful that you don't get too seasick - at higher movement speeds (adjust the MainWindow.MovementSpeed variable), it can get a little roller coast-ery.  There is no true "up", and the rotational and constant reorientation since you align to the surface can do wierd things to your stomach. :)
 
 The world model itself is created from a 256x256x256 bit vector to define the geometry, which is seeded then generated to create a connected set of cubes within the constraints I had set out to achieve (3, 4, 5 faces at each vertex.)
 
